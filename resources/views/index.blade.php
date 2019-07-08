@@ -128,36 +128,6 @@
 			</div>
 		</div>
 	</div>
-	
-	<div id="fh5co-author" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>A little about me</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="author">
-						<div class="author-inner animate-box" style="background-image: url(images/person3.jpg);">
-						</div>
-						<div class="desc animate-box">
-							<span>Web Designer &amp; Developer</span>
-							<h3>Mike Airways</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							<p><a href="about.html" class="btn btn-primary btn-outline">Learn More</a></p>
-							<ul class="fh5co-social-icons">
-								<li><a href="#"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<div id="fh5co-started">
 		<div class="container">
