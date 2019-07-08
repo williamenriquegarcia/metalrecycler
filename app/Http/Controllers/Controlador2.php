@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class Controlador2 extends Controller
 {
-    public function funcionEjemplo($parametroDeEjemplo)
+    public function funcionEjemplo()
     {
-    	return "mensaje desde controladpr de ejemplo".$parametroDeEjemplo;
+    	return view('index');
     }
 }
