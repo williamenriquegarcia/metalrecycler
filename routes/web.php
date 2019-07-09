@@ -15,5 +15,4 @@
 //     return view('index');
 // });
 
-Route::get('/', 'Controlador2@funcionEjemplo'
-);
+Route::get('/','ControladorPrincipal@index');
