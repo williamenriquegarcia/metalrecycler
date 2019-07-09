@@ -27,6 +27,8 @@
 		<link rel="stylesheet" href="{{asset('css/style.css')}}">
 		<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 	</head>
+
+	@yield("encabezado")
 	
 	<body>
 		
@@ -62,6 +64,8 @@
 			</div>
 		</div>
 	</nav>
+
+	@yield("navegacion")
 	
 	<div id="fh5co-work">
 		<div class="container">
@@ -116,6 +120,8 @@
 		</div>
 		</div>
 
+		@yield("trabajo")
+
 		<div id="fh5co-started">
 			<div class="container">
 				<div class="row animate-box">
@@ -160,3 +166,5 @@
 	<script src="{{asset('js/main.js')}}"></script>
 	</body>
 </html>
+
+@yield('pie')
