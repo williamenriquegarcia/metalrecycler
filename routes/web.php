@@ -15,4 +15,4 @@
 //     return view('index');
 // });
 
-Route::get('/','ControladorPrincipal@index');
+Route::get('/','ControladorPrincipal@mostrarVistaDeMuestra');

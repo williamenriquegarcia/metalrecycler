@@ -16,6 +16,11 @@ class ControladorPrincipal extends Controller
         return view('index');
     }
 
+    public function mostrarVistaDeMuestra()
+    {
+        return view('index');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

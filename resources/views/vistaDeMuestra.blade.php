@@ -32,37 +32,90 @@
 		
 	<div class="fh5co-loader"></div>
 	<div id="page">
-		<nav class="fh5co-nav" role="navigation">
-			<div class="container">
-				<div class="fh5co-top-logo">
-					<div id="fh5co-logo"><a href="index.html">Shift</a></div>
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="fh5co-top-logo">
+				<div id="fh5co-logo"><a href="index.html">Shift</a></div>
+			</div>
+			<div class="fh5co-top-menu menu-1 text-center">
+				<ul>
+					<li><a href="work.html">Work</a></li>
+					<li><a href="about.html">Profile</a></li>
+					<li class="has-dropdown">
+						<a href="#">Dropdown</a>
+						<ul class="dropdown">
+							<li><a href="#">Web Design</a></li>
+							<li><a href="#">eCommerce</a></li>
+							<li><a href="#">Branding</a></li>
+							<li><a href="#">API</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="fh5co-top-social menu-1 text-right">
+				<ul class="fh5co-social">
+					<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="#"><i class="icon-dribbble"></i></a></li>
+					<li><a href="#"><i class="icon-github"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div id="fh5co-work">
+		<div class="container">
+			<div class="row top-line animate-box">
+				<div class="col-md-7 col-md-push-5 text-left intro">
+					<h2>Shift is a free html5 template to showcase your work. 
+						<span class="fh5co-highlight">Made with <i class="icon-heart2"></i> by <a href="http://freehtml5.co">FreeHTML5.co</a> 
+						</span>
+					</h2>
+					<!-- <h2>Shift is a Collection of a Beautiful &amp; Premium Themes.</h2> -->
 				</div>
-				<div class="fh5co-top-menu menu-1 text-center">
-					<ul>
-						<li><a href="work.html">Work</a></li>
-						<li><a href="about.html">Profile</a></li>
-						<li class="has-dropdown">
-							<a href="#">Dropdown</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
+				
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center animate-box">
+					<a class="work" href="portfolio_detail.html">
+						<div class="work-grid" style="background-image:url(images/project-1.jpg);">
+							<div class="inner">
+								<div class="desc">
+								<h3>Folding Light</h3>
+								<span class="cat">Branding</span>
+							</div>
+							</div>
+						</div>
+					</a>
 				</div>
-				<div class="fh5co-top-social menu-1 text-right">
-					<ul class="fh5co-social">
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						<li><a href="#"><i class="icon-github"></i></a></li>
-					</ul>
+				<div class="col-md-4 text-center animate-box">
+					<a class="work" href="portfolio_detail.html">
+						<div class="work-grid" style="background-image:url(images/project-2.jpg);">
+							<div class="inner">
+								<div class="desc">
+									<h3>Power Led Light</h3>
+									<span class="cat">Illustration</span>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<a class="work" href="portfolio_detail.html">
+						<div class="work-grid" style="background-image:url(images/project-3.jpg);">
+							<div class="inner">
+								<div class="desc">
+									<h3>Elephant Origami</h3>
+									<span class="cat">Logo</span>
+								</div>
+							</div>
+						</div>
+					</a>
 				</div>
 			</div>
-		</nav>
-	
+		</div>
+		</div>
+
 		<div id="fh5co-started">
 			<div class="container">
 				<div class="row animate-box">
