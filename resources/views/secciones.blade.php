@@ -1,5 +1,9 @@
 @extends('vistaDeMuestra')
 
+@section('titulo')
+	ejemplo
+@endsection
+
 @section('trabajo')
 
 	<div class="container">
