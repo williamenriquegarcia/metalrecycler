@@ -16,3 +16,4 @@
 // });
 
 Route::get('/','ControladorPrincipal@mostrarVistaDeMuestra');
+Route::get('/prueba','ControladorPrincipal@mostrarConsultaDeMuestra');
