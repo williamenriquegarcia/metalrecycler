@@ -15,5 +15,7 @@
 //     return view('index');
 // });
 
-Route::get('/','ControladorPrincipal@mostrarVistaDeMuestra');
-Route::get('/prueba','ControladorPrincipal@mostrarConsultaDeMuestra');
+Route::get('/','ControladorPrincipal@mostrarPrincipal');
+Route::get('/index','ControladorPrincipal@mostrarPrincipal');
+Route::get('/registro','ControladorDeRegistro@mostrarVistaRegistro');
+Route::resource('/usuario','ControladorDeRegistro');

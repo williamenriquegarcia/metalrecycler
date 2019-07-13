@@ -8,4 +8,5 @@ class Departamento extends Model
 {
     protected $table='departamento';
     protected $primaryKey='id_departamento';
+
 }
